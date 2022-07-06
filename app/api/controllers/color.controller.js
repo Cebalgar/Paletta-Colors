@@ -53,7 +53,7 @@ const createColor = async(req, res, next) => {
         return next(error);  
     }
 };
-//Método para actualizar colores
+//Método para actualizar colores.
 
 const updateColorById = async (req, res, next) => {
     try {
@@ -76,7 +76,7 @@ const updateColorById = async (req, res, next) => {
     }
   }
 
-//Metodo para borrar colores
+//Metodo para borrar colores.
 
 const deleteColor = async(req, res, next) => {
     try {
